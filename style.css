@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    text-align: flex-end;
+    background-image: url('img/safar-safarov.jpg');
+    background-size: cover;
+    width: 40%;
+    height: 100vh;
+    
+}
+
+.left > footer {
+    position: absolute; 
+    bottom: 5vh; 
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vh;
+}
