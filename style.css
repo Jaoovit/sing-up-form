@@ -60,10 +60,12 @@ form {
     background-color: white;
     padding-top: 20px;
     box-shadow: 2px 2px 2px #D7D4D4;
+    padding-bottom: 20px;
 }
 
 legend{
     margin-left: 50px;
+    font-size: 30px;
 }
 
 p {
@@ -83,6 +85,17 @@ input[type="submit"] {
 
 }
 
+label{
+    color: rgb(110, 110, 110);
+    font-size: 15px;
+}
+
+input {
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: whitesmoke
+}
+
 form > div {
     display: flex;
     flex-direction: row;
@@ -94,6 +107,7 @@ form > div {
 div > p {
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
 span {
@@ -107,4 +121,8 @@ a {
 
 .left {
     font-size: 20px;
+}
+
+div > span {
+    font-weight:900
 }
