@@ -86,3 +86,12 @@ div > p {
     display: flex;
     flex-direction: column;
 }
+
+span {
+    margin-left: 50px;
+}
+
+a {
+    color: black;
+    text-decoration:none;
+}
