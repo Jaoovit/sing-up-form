@@ -91,10 +91,22 @@ label{
 }
 
 input {
+    outline: none;
     border-radius: 3px;
     border-width: 1px;
     border-color: whitesmoke
 }
+
+
+input:focus:invalid {
+    border: 1px solid red;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid #0081b5;
+}
+
 
 form > div {
     display: flex;
@@ -115,7 +127,7 @@ span {
 }
 
 a {
-    color: black;
+    color: #0081b5;
     text-decoration:none;
 }
 
