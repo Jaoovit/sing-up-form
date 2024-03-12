@@ -148,6 +148,21 @@ div > footer {
     font-weight:900;
 }
 
+.password {
+    outline: none;
+}
+
+.confpassword {
+    outline: none;
+}
+
+.erro {
+    color:red;
+    margin:0px;
+    font-size: 12px;
+}
+
+
 @media only screen and (max-width: 1200px) {
     
     body {
