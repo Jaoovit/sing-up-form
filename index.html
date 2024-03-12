@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <title>Sing-up</title>
 </head>
 <body>
@@ -43,6 +44,7 @@
                 <p>
                 <label for="password">PASSWORD *</label>
                 <input type="password" id="password" name="password" required>
+                <span class="erro"></span>
                 </p>
                 <p>
                 <label for="confPassword">CONFIRM PASSWORD *</label>
@@ -51,7 +53,8 @@
             </div>       
         </form>
         <input form="myform" type="submit" value="Create Account">
-        <footer>Already have an account? <a href="">Log in</a></footer>
+        <footer>Already have an account? <a class="logIn" href="">Log in</a></footer>
+        <button class="teste">teste</button>
     </div>
 </body>
 </html>
